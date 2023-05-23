@@ -7,7 +7,8 @@ import java.io.InputStreamReader;
 
 public class V3TRIFIV {
 
-    public static void main(String[] args) throws IOException {
+
+public static void main(String[] args) throws IOException {
         BufferedReader bufEntrada= new BufferedReader (new InputStreamReader (System.in));
         int numero;
         //ENTRADA DATOS
