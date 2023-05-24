@@ -8,4 +8,11 @@ Alumno: Marron Perez Luis Angel
  
 2V1TRIFIV
 
+3V2TRIFIV
+
+4V3TRIFIV
+
+5V4TRIFIV-FUNCIONES
+
+6 Juego
 

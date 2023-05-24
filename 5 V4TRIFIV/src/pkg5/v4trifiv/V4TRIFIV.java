@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg5.v4trifiv;
 
-/**
- *
- * @author LUIS
- */
+import funciones.funcionMultiplo;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class V4TRIFIV {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws IOException {
+        //DECLARACION DE VARIABLES
+         BufferedReader bufEntrada= new BufferedReader (new InputStreamReader (System.in));
+        int numero;
+        //CREO OBJETO
+        funcionMultiplo mult = new funcionMultiplo();
+        //ENTRADA DATOS
+        System.out.println("DAME NUMERO");
+        numero = Integer.parseInt(bufEntrada.readLine());
+        //SALIDA DATOS
+        System.out.println(mult.retornaMultiplo(numero));
+        
+        
+        
     }
     
 }
