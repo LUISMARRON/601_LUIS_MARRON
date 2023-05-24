@@ -14,4 +14,4 @@ Alumno: Marron Perez Luis Angel
 
 5V4TRIFIV-FUNCIONES
 
-6 Juego
+6 Jueg
