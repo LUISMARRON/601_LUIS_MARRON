@@ -11,18 +11,12 @@
 		private var lim_x_der: int=510;
 		private var limite_x_izq: int=40;
 
-
-
-
 		public function protagonista() {
-			
 			addEventListener(Event.ENTER_FRAME, motor);
-			
 			// constructor code
 		}
 		
 		public function motor(e: Event):void {
-			
 			if (der){
 				if ( x<= lim_x_der){
 					x+=vel;
@@ -36,7 +30,7 @@
 			controles();
 		}
 		
-		public function controles (){
+		public function controles(){
 			
 			stage.addEventListener(KeyboardEvent.KEY_DOWN, keydown);
 			stage.addEventListener(KeyboardEvent.KEY_UP, keyup);
@@ -44,10 +38,10 @@
 		
 		public function keydown (e: KeyboardEvent): void{
 			switch (e.keyCode){
-				case 68:
+				case 39:
 				der=true;
 				break;
-				case 65:
+				case 37:
 				izq=true;
 				break;
 			}
@@ -55,10 +49,10 @@
 		
 		public function keyup (e: KeyboardEvent):void{
 			switch (e.keyCode){
-				case 68:
+				case 39:
 				der=false;
 				break;
-				case 65:
+				case 37:
 				izq=false;
 				break;
 			}
