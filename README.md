@@ -16,3 +16,4 @@ Alumno: Marron Perez Luis Angel
 
 6 Juego
 
+VIDEO DE SOKETS Y CHAT MYSQL https://youtu.be/gGy16aBgha0
